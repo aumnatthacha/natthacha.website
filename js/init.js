@@ -505,11 +505,12 @@ function beker_tm_data_images(){
 	var data			= jQuery('*[data-img-url]');
 	
 	data.each(function(){
-		var element			= jQuery(this);
+		var element			= jQuery(this);	
 		var url				= element.data('img-url');
 		element.css({backgroundImage: 'url('+url+')'});
 	});
 }
+
 
 // -----------------------------------------------------
 // ----------------    CONTACT FORM    -----------------
